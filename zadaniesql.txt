@@ -14,9 +14,11 @@ ORDER BY City;
 3) table creation
 
 CREATE LABEL Persons (
-    PersonID int,
+    PersonID int primary key,
     LastName varchar(25),
     FirstName varchar(25),
     Address varchar(25),
     City varchar(25)
 );
+
+??????: ???? ?? ???????? Primary key ? ?????? "id"
