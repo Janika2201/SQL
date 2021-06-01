@@ -6,7 +6,7 @@ WHERE City = 'London'
 
 2)In this request, sorting is carried out by the city specified by the client
 select * from Customers
-ORDER LAY City
+ORDER BY City
 
 3) table creation
 
